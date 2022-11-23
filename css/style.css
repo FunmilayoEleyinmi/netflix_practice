@@ -35,8 +35,8 @@ header {
 button {
     background-color: red;
     padding: 10px 15px;
-    border-radius: 5px;
-    border-style: none;
+    border-radius: 0px;
+    
 }
 
 button a {
@@ -75,7 +75,7 @@ width: 60%;
 .first_section .content label {
     font-size: 20px;
     padding: 0 25px;
-    /* width: 90%; */
+
     
 }
 
@@ -92,11 +92,11 @@ width: 60%;
     width: 25%;
     font-size: 1.6rem;
     font-weight: 500;
+    border-radius: 0;
 }
 
 .first_section .get_started {
-    display: flex; 
-    /* border: 1px solid;  */ 
+    display: flex;  
     margin: 20px 0;
 }
 
@@ -245,17 +245,24 @@ width: 60%;
     padding-bottom: 2rem;
 }
 
-.sixth_section .questions ul{
-    padding-bottom: 1rem;
-    align-items: center;
+.sixth_section .questions li {
+    /* display: flex; */
+     /* flex-direction: ;  */
+     text-align: center;
+     justify-content: space-between;
+    margin: auto;
+
 }
 .sixth_section .questions button {
     width: 50%;
-    margin-bottom: 0.5rem;
+     margin-bottom: 0.5rem; 
     background-color: #303030;
-    padding: ;
+    padding: 0rem 0.5rem 1.5rem;
      border-radius: 0; 
     font-size: 1.5rem;
+    /* display: flex; */
+    /* margin: auto; */
+    /* text-align: center; */
     /* justify-content: space-between; */
     /* align-items: baseline; */
 }  
@@ -273,9 +280,9 @@ width: 60%;
 }
 
 .sixth_section .get_started_1 input{
-    padding: 18px 15px; 
+    padding: 15px 15px; 
     width: 70%;
-    margin-right: 0.5px;
+    margin-right: 1px;
 
   
  }
@@ -289,14 +296,13 @@ width: 60%;
      border-radius: 0;
  }
  
- .sixth_section .get_started_1 {
-
-     border: 1px solid; 
-     margin: auto;
+ .sixth_section .get_started_1 { 
+     margin: 0 auto;
+     display: flex;
      width: 70%;
-     align-content: center;
-     justify-content: center;
-     padding-top: 1rem;
+     /* align-content: center; */
+     /* justify-content: center; */
+      padding-top: 1.5rem; 
      
  }
 
@@ -306,4 +312,50 @@ width: 60%;
     text-align: center;
     padding: 0 25px;
 
+}
+
+.foot {
+    background-color: black;
+    padding: 5rem 10rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 0.8rem;
+
+}
+
+
+.foot .footer_content .head {
+    text-decoration: none;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: grey;
+}
+
+
+.foot .footer_content a{
+    text-decoration: none;
+    color: gray;
+}
+
+.foot a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+}
+.foot .footer_content .box{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+/* flex-direction:row ; */
+padding-top: 2rem;
+line-height: 2rem;
+padding-bottom: 2rem;
+}
+
+.box>* {
+    flex:1 1 160px ;
+    margin: 10px;
+}
+
+.foot p {
+    color: gray;
 }
