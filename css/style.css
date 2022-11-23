@@ -81,7 +81,7 @@ width: 60%;
 
 .first_section .get_started input{
    padding: 15px 15px; 
-   width: 70%;
+   width: 80%;
    margin-right: 1px;
  
 }
@@ -228,13 +228,82 @@ width: 60%;
     width: 80%;
 }
 
-
+.sixth_section {
     background-color: black;
     padding: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: center;
     align-items: center;
+    text-align: center;
     border-bottom:10px solid rgb(66, 62, 62) ;
-    margin:  0 auto;
+    /* margin:  0 auto; */
+}
+
+.sixth_section .faq {e
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sixth_section .questions ul{
+    padding-bottom: 1rem;
+    align-items: center;
+}
+.sixth_section .questions button {
+    width: 50%;
+    margin-bottom: 0.5rem;
+    background-color: #303030;
+    padding: ;
+     border-radius: 0; 
+    font-size: 1.5rem;
+    /* justify-content: space-between; */
+    /* align-items: baseline; */
+}  
+
+.sixth_section .questions i {
+    font-size: 3rem;
+    
+}
+.sixth_section .questions li {
+    list-style: none;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    
+}
+
+.sixth_section .get_started_1 input{
+    padding: 18px 15px; 
+    width: 70%;
+    margin-right: 0.5px;
+
+  
+ }
+ 
+ .sixth_section .get_started_1 .btn {
+     padding: 11px 8px;
+     color: white;
+     width: 12%%;
+     font-size: 1.5rem;
+     font-weight: 500;
+     border-radius: 0;
+ }
+ 
+ .sixth_section .get_started_1 {
+
+     border: 1px solid; 
+     margin: auto;
+     width: 70%;
+     align-content: center;
+     justify-content: center;
+     padding-top: 1rem;
+     
+ }
+
+ .sixth_section  label {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    padding: 0 25px;
+
 }
