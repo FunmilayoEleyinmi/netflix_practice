@@ -133,3 +133,37 @@ width: 60%;
     width: 100%;
     padding-right: 4rem;
 }
+
+.third_section {
+    background-color: black;
+    padding: 3rem 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:10px solid rgb(66, 62, 62) ;
+    margin:  0 auto;
+}
+
+.third_section .left_2 img {
+    width: 100%;
+    
+}
+
+.third_section .right_2 {
+    padding: 4rem 1rem 2rem; 
+}
+
+.third_section .right_2 h1{
+    width: 70%;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.third_section .right_2 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 1.7rem;
+    width: 70%;
+    
+}
